@@ -1,12 +1,12 @@
 SpringSelectBoxSample
 =====================
 
-<form:form method="post" action="addLesson" modelAttribute="lesson">
- <form:select path="course">
-  <form:options items="${courses}"/>
- </form:select>
- <input type="submit" name="addLesson" value="Add lesson">
-</form:form>
+`<form:form method="post" action="addLesson" modelAttribute="lesson">
+   <form:select path="course">
+     <form:options items="${courses}"/>
+   </form:select>
+   <input type="submit" name="addLesson" value="Add lesson">
+</form:form>`
 
 By default, once this form is submitted - it only posts selected item as a string not full-fledged Course object.
 
