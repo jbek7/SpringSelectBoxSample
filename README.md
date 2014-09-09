@@ -1,7 +1,18 @@
 SpringSelectBoxSample
 =====================
 
-Dynamic conversion of string to a complex object
+<form:form method="post" action="addLesson" modelAttribute="lesson">
+ <form:select path="course">
+  <form:options items="${courses}"/>
+ </form:select>
+ <input type="submit" name="addLesson" value="Add lesson">
+</form:form>
+
+By default, once this form is submitted - it only posts selected item as a string not full-fledged Course object.
+
+In this sample demo, a full-fledged object can be converted by using `Formatter<T>` 
+
+To make the magic work, we need to implement Formatters to convert our environments and data centers back and forth to IDs. Regarding Formatters, I’ll let you read about them in the <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#format">Spring Reference Documentation: 7.6 Spring Field Formatting</a> 
 
 This repository is created from my answer in StackOverflow - 
 
