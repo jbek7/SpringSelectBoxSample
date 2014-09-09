@@ -12,7 +12,7 @@ By default, once this form is submitted - it only posts selected item as a strin
 
 In this sample demo, a full-fledged object can be converted by using `Formatter<T>` 
 
-To make the magic work, we need to implement Formatters to convert our environments and data centers back and forth to IDs. Regarding Formatters, I’ll let you read about them in the <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#format">Spring Reference Documentation: 7.6 Spring Field Formatting</a> 
+To make it work, we need to implement Formatters to convert our course and data centers back and forth to IDs. Regarding Formatters, I’ll let you read about them in the <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/validation.html#format">Spring Reference Documentation: 7.6 Spring Field Formatting</a> 
 
 This repository is created from my answer in StackOverflow - 
 
