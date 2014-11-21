@@ -28,4 +28,14 @@ public class CourseRepository {
 
         return courses;
     }
+    public ArrayList<String> getOptions() {
+        final ArrayList<String> names = new ArrayList<String>();
+        names.add("John");
+        names.add("Jack");
+        names.add("Smith");
+        names.add("Doe");
+        names.add("Jane");
+        names.add("James");
+        return names;
+    }
 }

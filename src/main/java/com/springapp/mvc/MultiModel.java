@@ -3,17 +3,8 @@ package com.springapp.mvc;
 import java.util.Collections;
 import java.util.List;
 
-public class Lesson {
+public class MultiModel {
     private List<String> options = Collections.emptyList();
-
-    private Course course;
-    public Course getCourse() {
-        return course;
-    }
-
-    public void setCourse(Course course) {
-       this.course = course;
-    }
 
     public List<String> getOptions() {
         return options;

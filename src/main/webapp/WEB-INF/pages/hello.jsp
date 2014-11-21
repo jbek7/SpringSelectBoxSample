@@ -10,5 +10,17 @@
     <input type="submit" name="addLesson" value="Add lesson">
 </form:form>
 
+             <hr>
+             <hr>
+<form:form method="post" action="addOptions" modelAttribute="multiModel">
+
+
+    <form:select multiple="true" path="options">
+        <form:options items="${options}"  />
+    </form:select>
+
+    <input type="submit" name="addOptions" value="Add Options">
+</form:form>
+
 </body>
 </html>
